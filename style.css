@@ -1,5 +1,74 @@
 
-
+/*
     font-family: 'Permanent Marker', cursive; pour les titres
 
     font-family: 'Swanky and Moo Moo', cursive; pour le texte
+*/
+body{
+    background-color: #7f615c;
+}
+
+ul{
+
+}
+
+li {
+
+}
+
+p{
+
+}
+
+a{
+
+}
+
+div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border: 2px solid;
+
+}
+
+#inner{
+  background-color: #5eb28d;
+}
+
+.main{
+  flex-direction: column;
+  width :50%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.profil{
+
+}
+
+.photo{
+
+}
+
+.bio{
+
+}
+
+.wiki{
+
+}
+
+.dates{
+
+}
+
+.activite{
+
+}
+
+.fin{
+
+}
