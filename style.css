@@ -94,6 +94,10 @@ div{
 	border: none;
 }
 
+.social{
+	align-self: stretch;
+}
+
 .wiki{
 	background-color: #7F1E1C;
 	margin: 20px 0;
