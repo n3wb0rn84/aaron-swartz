@@ -28,7 +28,6 @@ h3 {
 ul{
 	width: 75%;
 	height: auto;
-	margin: 20px 0;
 	margin-top: -15px
 }
 
@@ -39,7 +38,6 @@ li {
 p{
 	width: 75%;
 	height: auto;
-	margin: 20px 0;
 	margin-top: -15px;
 }
 
@@ -76,6 +74,16 @@ div{
 .profil{
 }
 
+.picleft{
+	border: none;
+}
+
+.photo2{
+	border: none;
+	margin: 20px;
+	margin-top: -15px;
+}
+
 .photo{
 	border-radius: 50%;
 	margin-top: -20px;
@@ -105,6 +113,11 @@ div{
 
 }
 
-img{
+.photo img{
 	border-radius: 50%;
+}
+
+.photo2 img{
+	width: 200px;
+	height: auto;
 }
