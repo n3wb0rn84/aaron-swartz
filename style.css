@@ -8,8 +8,28 @@ body{
     background-color: #7f615c;
 }
 
-ul{
+h1{
+	font-family: 'Permanent Marker', cursive;
+	text-decoration: underline;
+	font-size: 40px;
+}
 
+h2 {
+	font-family: 'Permanent Marker', cursive;
+	text-decoration: underline;
+}
+
+h3 {
+	font-family: 'Permanent Marker', cursive;
+	text-decoration: underline;
+	margin-bottom: -15px;
+}
+
+ul{
+	width: 75%;
+	height: auto;
+	margin: 20px 0;
+	margin-top: -15px
 }
 
 li {
@@ -17,11 +37,17 @@ li {
 }
 
 p{
-
+	width: 75%;
+	height: auto;
+	margin: 20px 0;
+	margin-top: -15px;
 }
 
 a{
-
+	color: #04CB45;
+	text-decoration: none;
+	font-family: 'Permanent Marker', cursive;
+	
 }
 
 div{
@@ -35,30 +61,36 @@ div{
 
 #inner{
   background-color: #5eb28d;
+  font-family : 'Swanky and Moo Moo', cursive;
+  margin: 20px 0;
+  flex-direction: column;
 }
 
 .main{
   flex-direction: column;
   width :50%;
   height: auto;
-  align-items: center;
-  justify-content: center;
+  border: none;
 }
 
 .profil{
-
 }
 
 .photo{
-
+	border-radius: 50%;
+	margin-top: -20px;
+	margin-bottom: 30px;
 }
 
 .bio{
-
+	border: none;
 }
 
 .wiki{
-
+	background-color: #7F1E1C;
+	margin: 20px 0;
+	width: 100px;
+	height: auto;
 }
 
 .dates{
@@ -71,4 +103,8 @@ div{
 
 .fin{
 
+}
+
+img{
+	border-radius: 50%;
 }
